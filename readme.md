@@ -20,5 +20,4 @@
 1.设定认证代码，部署服务器端文件。<br>
 2.公布“认证助手”应用程序下载链接，例如：[下载产品认证助手 (mosaik404.github.io)](https://mosaik404.github.io/products-quali/demo/download/quali/qualiapp.html)。<br>
 3.随产品发放认证代码，例如：0x - 114514 - 1919810。<br>
-
 4.用户在“认证助手”应用程序内输入认证代码，跳转至对应网页下载产品。<br>
