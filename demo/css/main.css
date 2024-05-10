@@ -1,0 +1,137 @@
+/*! JiAwww v1.1 *//*!
+ *  Desing by JuziYou
+ *  Main style sheet
+*/
+/* 外部样式 */
+@import "https://cdn.bootcss.com/font-awesome/5.11.2/css/all.min.css"; /* font-awesome */
+@import "https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css"; /* normalize.css */
+/* 通用样式 */
+#body{
+	max-width:710px;
+	margin:0 auto;
+}
+a{
+	text-decoration:none;
+}
+/* 全站菜单样式 */
+header .top{
+	min-height:50px;
+	margin-bottom:20px;
+	margin-top:20px;
+	text-align:center;
+	color:#fff;
+}
+header .top ul{
+	margin:15px 0 0 0;
+	padding:0;
+}
+header .top ul li{
+	list-style:none;
+	display:inline;
+	margin:0 10px 0 10px
+}
+header .top ul li a,header .top .logo a{
+	color:#ababab;
+	-webkit-transition:color 0.5s;
+	-moz-transition:color 0.5s;
+	-ms-transition:color 0.5s;
+	-o-transition:color 0.5s;
+	transition:color 0.5s;
+}
+header .top ul li a:hover,header .top .logo a:hover{
+	color:#fff;
+	-webkit-transition:color 0.5s;
+	-moz-transition:color 0.5s;
+	-ms-transition:color 0.5s;
+	-o-transition:color 0.5s;
+	transition:color 0.5s;
+}
+header .background,header .background .shelter{
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	background-position:center center;
+	background-size:cover;
+	border-radius:0 0 35px 35px;
+	z-index:-1;
+}
+header .background .shelter{
+	background-color:#000;
+	opacity:0.7;
+}
+/* 如果不使用图片logo */
+header .top h1{
+	display:inline;
+	font-size:30px;
+	font-weight:lighter;
+}
+header .title .mod-1,header .title .mod-2{
+	display:inline-block;
+	text-align:right;
+}
+/* 如果使用图片logo */
+header .top h1 img{
+	height:30px;
+}
+/* 按钮 */
+.submitA{
+	text-decoration:none;
+	color:#fff;
+	background-color:#000;
+	font-size:1em;
+	padding:7px;
+	border:3px solid #000;
+	border-radius:10px;
+	-webkit-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-moz-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-ms-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-o-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+}
+.submitA:hover{
+	color:#000;
+	background-color:transparent;
+	border-radius:20px;
+	-webkit-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-moz-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-ms-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	-o-transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+	transition:border-radius 0.4s,background-color 0.3s,color 0.3s;
+}
+/* 底部 */
+footer{
+	text-align:center;
+	color:#383838;
+	font-size:0.8em;
+	font-weight:100;
+	margin-top:20px;
+}
+footer img{
+	height:20px;
+}
+footer .qr{
+	height:80px;
+	box-shadow:0 0 10px #888888;
+	margin:10px;
+}
+/* 媒体查询 */
+@media screen and (max-width: 1599px) and (min-width: 1251px){
+    #body{
+		max-width:710px;
+	}
+}
+@media screen and (max-width: 1250px) and (min-width: 768px){
+    #body{
+		max-width:654px;
+	}
+}
+@media (max-width: 767px){
+	#body{
+		padding-left: 1.563rem;
+		padding-right: 1.563rem;
+	}
+}

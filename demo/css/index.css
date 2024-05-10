@@ -1,0 +1,134 @@
+/*! JiAwww v1.1 *//*!
+ *  Desing by JuziYou
+ *  Index style sheet
+*/
+header,header .background,header .background .shelter{
+	height:38em;
+}
+header .title{
+	text-align:center;
+	color:#FFF;
+	margin-top:6em;
+	opacity:0.8;
+}
+/* 文字logo */
+header .title .mod-1 h3{
+	display:inline;
+	font-size:70px;
+	font-weight:lighter;
+}
+/* 如果使用图片logo */
+header .title .mod-1 h3 img{
+	height:140px;
+}
+/* body部分 */
+#body .top{text-align:center;}
+#body .top a{
+	color:#fff;
+	font-size:20px;
+	border:2px solid #fff;
+	border-radius:20em;
+	display:inline-block;
+	padding:10px;
+	margin:10px;
+}
+#body{
+	margin-top:-5.3em;
+}
+#body .poi{
+	margin-top:21px;
+	box-shadow: 0 0 5px #888888;
+	border-radius:20px;
+	padding:20px;
+}
+/* 文字区 */
+.go .top-title{
+	margin:40px 0 40px 0;
+	text-align:center;
+	color:#888888;
+	font-size:1em;
+}
+.go .top-title .title{
+	font-size:1.8em;
+	font-weight:800;
+	color:#000;
+}
+.apps{
+	overflow:auto;
+}
+.apps .reimu{
+	background-color:#EEE;
+	border-radius:10px 10px 20px 20px;
+	float:left;
+	margin:0 0.9375rem 3.75rem;
+	color:#000;
+	-webkit-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-moz-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-ms-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-o-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+}
+.apps .reimu:hover{
+	box-shadow: 0 0 5px #888888;
+	background-color:#ffa460;
+	color:#000;
+	-webkit-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-moz-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-ms-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	-o-transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+	transition:background-color 0.5s,box-shadow 0.3s,color 0.2s;
+}
+.apps .reimu{
+		width:calc(100% / 3 - 1.875rem);
+}
+.apps .reimu img{
+		max-width:100%;
+}
+.apps .reimu h4{
+	text-align:center;
+}
+.news .title h3{
+	font-size:1.3em;
+	margin-left:1em;
+}
+.news .content{
+	padding:20px 25px 2em 25px;
+	background-color:rgb(245, 245, 245);
+	border-radius:10px;
+	-webkit-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-moz-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-ms-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-o-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+}
+.news .content:hover{
+	background-color:#fff;
+	box-shadow: 0 0 5px #888888;
+	border-radius:20px;
+	-webkit-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-moz-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-ms-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	-o-transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+	transition:border-radius 0.5s,box-shadow 0.4s,background-color 0.3s;
+}
+.news .content h4{
+	margin:0 0 1em 0;
+}
+.news .text{
+	line-height:1.2em;
+	margin:0 0 2em 0;
+}
+/* 媒体查询 */
+@media screen and (max-width: 1599px) and (min-width: 1251px){
+    .apps .reimu{
+		width:calc(100% / 3 - 1.875rem);
+	}
+}
+@media screen and (max-width: 1250px) and (min-width: 768px){
+    
+}
+@media (max-width: 767px){
+	.apps .reimu{
+		width:calc(100% / 2 - 1.875rem);
+	}
+}
